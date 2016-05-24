@@ -3,7 +3,7 @@ Docker image containing ge-cancellation-checker compatible with the Raspberry Pi
 
 You must set your Global Entry and SMTP settings in config.json.
 
-Furhter documentation for ge-cancellation-checker is available here: https://github.com/zeeMonkeez/ge-cancellation-checker
+Further documentation for ge-cancellation-checker is available here: https://github.com/zeeMonkeez/ge-cancellation-checker
 
 ### Example: Create container, run a check
 ```bash
