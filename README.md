@@ -22,6 +22,6 @@ docker create --name=ge-cancellation-checker -v $(pwd)/config.json:/ge-cancellat
 
 crontab -e
 
-30 15-23 docker start ge-cancellation-checker >> /dev/null
-30 0-6 docker start ge-cancellation-checker >> /dev/null
+30 15-23 * * * docker start ge-cancellation-checker >> /dev/null
+30 0-6 * * * docker start ge-cancellation-checker >> /dev/null
 ```
